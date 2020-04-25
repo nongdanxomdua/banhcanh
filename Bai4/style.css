@@ -1,0 +1,49 @@
+h2{
+  margin-left: 40px;
+}
+#menu1 ul li{
+  text-align: center;
+  width:160px;
+  height:40px;
+  display: inline-table;
+  border-right: 1px solid #ccc;
+  line-height:40px;
+}
+#menu1 ul li a{
+  font-weight: bold;
+  text-decoration:none;
+  color:#ccc;
+}
+.l1{
+  background: black;
+}
+#menu1 ul li:hover{
+  background:blue;
+}
+#menu1 ul li:active{
+  background:green;
+}
+
+
+#menu2 ul li{
+  padding-left: 10px;
+  width:160px;
+  height:40px;
+  line-height:40px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+#menu2 ul li a{
+  font-weight: bold;
+  text-decoration:none;
+  color:#ccc;
+}
+.l2{
+  background: black;
+}
+#menu2 ul li:hover{
+  background:blue;
+}
+#menu2 ul li:active{
+  background:green;
+}
