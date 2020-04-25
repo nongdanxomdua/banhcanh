@@ -1,0 +1,29 @@
+.main{
+  width: 400px;
+  height:150px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 5px 5px 3px #a1a1a1;
+  position: relative;
+  overflow:hidden;
+}
+.khoi{
+  text-decoration: none;
+}
+h2{
+  text-transform:uppercache;
+  color: red;
+  font-size: 200%;
+}
+p{color:black;}
+.goctrai{
+  width:100px;
+  height: 50px;
+  border: 1px solid red;
+  background: red;
+  position:absolute;
+  top:-20px;
+  left:-35px;
+  transform: rotate(-45deg);
+
+}
