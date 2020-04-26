@@ -275,3 +275,11 @@ body {
       height: 30px;
       width: 300px;
     }
+    #video{
+      position: absolute;
+       top: 15px;
+      left: 15px;
+      height: 600px;
+      width: 300px;
+      margin-top: 30px;
+    }

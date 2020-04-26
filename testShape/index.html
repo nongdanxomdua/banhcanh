@@ -63,7 +63,7 @@
 <body>
 
   <div style="text-align: right;padding: 15px;"><button onclick="toggleShape()">Đổi kiểu</button>&nbsp;</div>
-  
+  <div><video id="video" autoplay="" muted="" loop="" style="position: absolute;top: 15px;left: 15px;"><source src="xvideos.mp4" type="video/mp4"></video></div>
   <div id="container">
     <div id="stage">
       <div id="shape" class="cube backfaces">
@@ -85,11 +85,7 @@
   <div style="position: absolute;top: 15px;left: 15px;height: 30px;width: 300px;" id="playAudio">
     <audio controls autoplay loop><source src="Nhac.mp3" type="audio/mpeg"></audio>
   </div>
-  <div style="position: fixed;top: 100px;left: 15px;  " id="playVideo">
-<video autoplay muted loop="" style="height: 700px; width:570px;">
-<source src="xvideos.mp4" type="video/mp4">
-</video>
-  </div>
+  
 <!--   script>
     var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
     if(isChrome) {
