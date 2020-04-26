@@ -282,4 +282,5 @@ body {
       height: 600px;
       width: 300px;
       margin-top: 30px;
+	    z-index:-1;
     }
