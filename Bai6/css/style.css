@@ -1,0 +1,183 @@
+/*tablet landscape and desktop layout (767px or more)*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-color: #ffffff
+}
+body{
+	width: 100%;
+	background-color: #fffded;
+	border:3px solid #931420;
+	font-family: Arial;
+	max-width: 800px;
+	margin: auto;
+}
+header{
+	width: auto;
+	padding:1.5em 0 1.5em 0;
+	border-bottom: 3px solid #931420;
+	background-image: linear-gradient(
+30deg, #f6bb73 0%, white 50%, #f6bb73 100%);
+}
+
+header h2{
+	font-size: 200%;
+	color: #800000;
+}
+header h3{
+	font-size: 130%;
+	font-style: italic;
+}
+header img{
+	float: left;
+	padding: 0 30px;
+}
+header span{
+	text-shadow: 2px 2px 2px #800000;
+}
+section{
+	float:right;
+	width: 66.6666667%;
+	padding: 1em 20px 0px 20px;
+}
+section p{
+	padding-bottom: .25em;
+	font-size: 110%
+}
+section h2{
+	color: #800000;
+	padding-bottom:0.5em;
+}
+section h3{
+	padding-bottom: 10px;
+	font-size: 125%;
+}
+section img{
+	float: right;
+	padding:3px 15px 10px 30px;
+}
+aside{
+	padding:1em 20px 20px 20px;
+	width: 33.3333333%;
+}
+aside h2{
+	font-size: 130%;
+	color: #800000;
+	padding: 0 0 .25em 0;
+}
+aside h3{
+	width: 150px;
+	font-size: 110%;
+	font-weight: bold;
+	padding-top: 10px;
+	position: absolute;
+}
+aside div{
+	width: 150px;
+	padding-top: 1em;
+}
+footer{
+clear: both;
+}
+aside a{
+	text-decoration: none;
+}
+
+#home{
+	width: 155px;
+	font-size: 110%;
+	font-weight: bold;
+	padding:25px 0 ; 
+}
+a:link{
+	color: blue;
+}
+a:visited{
+	color: blue;
+}
+a:hover{
+	color: red;
+}
+a:active{
+	color: green;
+}
+.d4:link{
+	color:#800000;
+}
+.d4:visited{
+	color:#800000;
+}
+.d4:hover{
+	color: red;
+}
+.d4:actived{
+	color: #800000;
+}
+
+/*layout (612px; to 767px)*/
+@media only screen and (max-width: 767px){
+	body{
+		max-width: 625px;
+	}
+	main{overflow: hidden;}
+	section{
+	float: left;
+	width: 90%;
+	padding: 1em 20px 0px 20px;
+	}
+	aside{
+		border-top: 3px solid #800000;
+		float:right;
+		width: 100%;
+	}
+	aside h2{
+		padding:0 1.5em;
+		margin-left: 10px;}
+	#imglink{
+		width: 767px;
+		min-width: 612px;
+		padding-left: 19px;
+
+	}
+	.hinh{
+		display: inline-block;
+		padding-left: 3px;
+	}
+	.hinh img{
+		height: 80px;
+	}
+	#home h3{width: 90px;}
+	#home1{
+		width: 90px;
+		float:right;
+		padding-top:5%;
+		font-size: 80%;
+	}
+	footer{
+		margin-bottom: 3em;
+	}
+}
+
+/*layout (611px or less)*/
+@media only screen and (max-width: 611px){
+	body{
+		max-width: 390px;
+		min-width: 303px;
+	}
+	header img{
+		padding: 1em 30px;
+	}
+	section img{
+		float: left;
+		width: 80%;
+		height: 30%;
+	}
+	section p{clear: right;}
+	#imglink{
+		width: 390px;
+		min-width: 390px;
+		padding-left: 10%;
+	}
+}
